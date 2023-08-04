@@ -1,0 +1,34 @@
+.input {
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.input__box {
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    transition: .2s;
+    box-shadow: inset 0 0 0 0 #2f74c0;
+}
+
+.input__box:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 2px #2f74c0;
+}
+
+.input__submit {
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.input__submit:hover {
+    transform: scale(1.2);
+}
